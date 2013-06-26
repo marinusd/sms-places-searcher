@@ -17,7 +17,7 @@ How do you use it?
  7.  In a few moments, you should get a reply with the top three results from Google Places.
  
 Is there input error checking? Not much.
-Is there runtime catching. Not much. 
+Is there runtime catching? Not much. 
 You have suggestions to improve it? We're all ears.
 
 https://github.com/marinusd/sms-searcher/
