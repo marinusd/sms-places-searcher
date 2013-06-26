@@ -57,7 +57,6 @@ public class ResultsFetcher {
 		StringBuilder ret = new StringBuilder();
 		String searchURL = "https://maps.googleapis.com/maps/api/place/details/json?key="
 				+ PLACES_API_KEY + "&sensor=false&reference=";
-		InputStream is = null;
 		try {
 			for (String ref : references) {
 				JSONObject jObject = getPlacesResult(searchURL + ref);
@@ -71,12 +70,6 @@ public class ResultsFetcher {
 
 		} catch (Exception e) {
 			Log.i("GetPlacesDetails", "Exception " + e.getMessage());
-		} finally {
-			try {
-				if (is != null)
-					is.close();
-			} catch (Exception squish) {
-			}
 		}
 		// Log.i(DEBUG_TAG, "Returning "+ ret.toString());
 		return ret.toString();
