@@ -4,7 +4,7 @@ sms-searcher
 A home-brewed replacement for GoogleSMS (R.I.P.)   -- of course we assume you have a spare smartfone and an underutilized text plan.
 
 
-This Android app should run on any Gingerbread (2.3.3) or higher device. It registers a BroadcastReceiver to get incoming SMS messages, which hands those messages to a Service. The Service uses a GooglePlaces search utility to assemble a return SMS message, which the Service then dispatches to the original sender.
+This Android app should run on any Gingerbread (2.3.3) or higher device. It registers a BroadcastReceiver to get incoming SMS messages, and hands those messages to a Service. The Service uses a GooglePlaces search utility to assemble a return SMS message, which the Service then dispatches to the original sender.
 What good is that?  Why not just do a google search from your Internet-connected device?  Well, sometimes you don't have a smartphone, but you have a texting phone. Or sometimes your service is too spotty for TCP/IP, but just fine for a short message. Or perhaps you're roaming and the local ISP charges mondo $$ per kb on the data side. Or...
 
 How do you use it? 
