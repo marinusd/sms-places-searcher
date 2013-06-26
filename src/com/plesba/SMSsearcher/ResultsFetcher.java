@@ -65,7 +65,7 @@ public class ResultsFetcher {
 				// Log.i(DEBUG_TAG, "name is "+ oneObject.getString("name"));
 				ret.append(oneObject.getString("formatted_address") + "\n");
 				ret.append(oneObject.getString("formatted_phone_number")
-						+ "\n - - - - - \n");
+						+ "\n - - - - -\n");
 			}
 
 		} catch (Exception e) {
