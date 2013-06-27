@@ -1,4 +1,4 @@
-sms-searcher
+sms-places-searcher
 ============
 
 A home-brewed replacement for GoogleSMS Search (R.I.P.)   -- of course we assume you have a spare smartfone and an underutilized text plan.
